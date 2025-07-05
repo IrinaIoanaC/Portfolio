@@ -146,13 +146,13 @@ p {
 }
 
 .home {
-  background-image: url("/images/background.jpg");
+  background-image: url("./images/background.jpg");
   background-size: cover; /* this makes the image cover the whole div */
   background-position: center; /* this centers the image */
   background-repeat: no-repeat; /* this prevents the image from repeating */
   height: 100vh;
   min-height: 80rem;
-  
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -332,7 +332,7 @@ p {
 /* Footer */
 .block__end {
   /* background: #580abd; */
-  background-image: url("images/footer3jpg.jpg");
+  background-image: url("./images/footer3jpg.jpg");
   background-size: cover; /* this makes the image cover the whole div */
   background-position: center; /* this centers the image */
   background-repeat: no-repeat; /* this prevents the image from repeating */
@@ -351,7 +351,6 @@ p {
   max-width: 1140px;
   margin: 0 auto;
 }
-
 
 .li_flex {
   display: flex;
@@ -373,10 +372,3 @@ p {
   padding: 6rem;
   background: #fcfcfc;
 }
-
-/*.feature_background {
-  background-image: url("/images/background_white.jpg");
-  background-size: cover; 
-  background-position: center; 
-  background-repeat: no-repeat; 
-}/*
