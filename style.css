@@ -108,7 +108,7 @@ p {
 }
 
 .nav__item > a:hover {
-  color: #7c5af9;
+  color: #6741f3;
   font-weight: 500;
 }
 
@@ -317,9 +317,9 @@ p {
   font-size: 1.5rem;
 }
 
-.about__content li span {
-  margin-right: 0.6em;
-  line-height: 1;
+.about__content li .icon {
+  margin-right: 0.5rem;
+  line-height: 1.5;
 }
 
 .image_small {
@@ -332,7 +332,7 @@ p {
 /* Footer */
 .block__end {
   /* background: #580abd; */
-  background-image: url("images/footer.jpg");
+  background-image: url("images/footer3jpg.jpg");
   background-size: cover; /* this makes the image cover the whole div */
   background-position: center; /* this centers the image */
   background-repeat: no-repeat; /* this prevents the image from repeating */
@@ -352,6 +352,7 @@ p {
   margin: 0 auto;
 }
 
+
 .li_flex {
   display: flex;
   align-items: flex-start; /* Align text to top of icon */
@@ -365,10 +366,17 @@ p {
 
 .bold_item {
   font-weight: 600;
-  color: #b37ef7;
+  color: #6026e6;
 }
 
-.test {
+.about {
   padding: 6rem;
   background: #fcfcfc;
 }
+
+/*.feature_background {
+  background-image: url("/images/background_white.jpg");
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+}/*
