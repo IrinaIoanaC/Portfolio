@@ -285,7 +285,7 @@ p {
   }
 }
 #about {
-  scroll-margin-top: 12rem;
+  scroll-margin-top: 120px;
 }
 .about__content {
   font-size: 1.6rem;
