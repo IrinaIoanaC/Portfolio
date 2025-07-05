@@ -152,7 +152,7 @@ p {
   background-repeat: no-repeat; /* this prevents the image from repeating */
   height: 100vh;
   min-height: 80rem;
-  max-height: 120rem;
+  
   display: flex;
   justify-content: center;
   align-items: center;

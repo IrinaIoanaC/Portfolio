@@ -11,6 +11,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body>
     <nav class="nav collapsible">
@@ -30,7 +31,7 @@
       </ul>
     </nav>
     <section class="home">
-      <div class="home__content">
+      <div class="home__content" data-aos="zoom-in-down">
         <h1 class="home__heading">HI, I'M IRINA 👋</h1>
         <div class="home__info">
           <p class="home__description">
@@ -44,7 +45,7 @@
         </div>
       </div>
     </section>
-    <section class="about">
+    <section class="about" data-aos="fade-up">
       <header class="block__header">
         <h2>DAY-TO-DAY WORK</h2>
         <p class="block__paragraph">
@@ -53,7 +54,7 @@
           life!
         </p>
       </header>
-      <article class="grid grid--1x2 feature container">
+      <article class="grid grid--1x2 feature container" data-aos="flip-">
         <div class="feature__content">
           <h3 class="feature__heading">WHO AM I</h3>
           <p class="about__content">
@@ -131,7 +132,7 @@
             <img class="feature__image" src="/images/data_manage.jpg" alt="" />
           </div>
         </article>
-        <article class="grid grid--1x2 feature">
+        <article class="grid grid--1x2 feature" data-aos="fade-right">
           <div class="feature__content">
             <h3 class="feature__heading">DATA ANALYSIS</h3>
             <p class="about__content">
@@ -171,7 +172,7 @@
             />
           </div>
         </article>
-        <article class="grid grid--1x2 feature">
+        <article class="grid grid--1x2 feature" data-aos="flip-left">
           <div class="feature__content">
             <h3 class="feature__heading">AUTOMATION & SCRIPTING</h3>
             <ul class="about__content">
@@ -212,7 +213,7 @@
             <img class="feature__image" src="/images/programming.jpg" alt="" />
           </div>
         </article>
-        <article class="grid grid--1x2 feature">
+        <article class="grid grid--1x2 feature" data-aos="fade-right">
           <div class="feature__content">
             <h3 class="feature__heading">COMMUNICATION SKILLS</h3>
             <p class="about__content">
@@ -236,7 +237,11 @@
             />
           </div>
         </article>
-        <article class="grid grid--1x2 feature">
+        <article
+          class="grid grid--1x2 feature"
+          data-aos="fade-down
+  "
+        >
           <div class="feature__content">
             <h3 class="feature__heading">DASHBOARDS</h3>
             <p class="about__content">
@@ -261,7 +266,7 @@
             <img class="feature__image" src="/images/dashboard.jpg" alt="" />
           </div>
         </article>
-        <article class="grid grid--1x2 feature">
+        <article class="grid grid--1x2 feature" data-aos="fade-down">
           <div class="feature__content">
             <h3 class="feature__heading">COMMERCIAL RESPONSABILITIES</h3>
 
@@ -317,5 +322,9 @@
       </header>
     </section>
     <script src="./main.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
