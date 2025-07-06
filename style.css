@@ -354,6 +354,11 @@ p {
   text-align: justify;
 }
 
+.description__content {
+  text-align: center;
+  font-style: italic;
+}
+
 .about__skills {
   display: flex;
   flex-wrap: wrap;
@@ -392,11 +397,11 @@ p {
 /* Footer */
 .block__end {
   /* background: #580abd; */
-  background-image: url("./images/footer3jpg.jpg");
+  background-image: url("./images/footer2.jpg");
   background-size: cover; /* this makes the image cover the whole div */
   background-position: center; /* this centers the image */
   background-repeat: no-repeat; /* this prevents the image from repeating */
-  color: #fff;
+  color: #013956;
   display: flex;
   flex-direction: column;
   justify-content: center;
