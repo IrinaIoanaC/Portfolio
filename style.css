@@ -286,6 +286,12 @@ p {
   margin: auto;
 }
 
+@media (max-width: 600px) {
+  .block__paragraph {
+    text-align: left;
+  }
+}
+
 .block--purple {
   background: #6e07f3;
   color: #fff;
