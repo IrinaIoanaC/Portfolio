@@ -152,10 +152,10 @@ p {
   background-repeat: no-repeat; /* this prevents the image from repeating */
   height: 100vh;
   min-height: 80rem;
-
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 
 .home__content {
@@ -203,6 +203,58 @@ p {
   padding: 1.5rem 8rem;
   font-size: 2rem;
   font-family: "Cal Sans", sans-serif;
+}
+
+.btn_scroll {
+  width: 30px;
+  height: 50px;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  border: none;
+  outline: 2px solid rgb(105, 127, 255);
+  box-shadow: 0px 0px 10px rgb(105, 127, 255);
+
+  position: absolute;
+  bottom: 30%; /* adjust this value as needed */
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+@media (max-width: 600px) {
+  .btn_scroll {
+    bottom: 10%;
+  }
+}
+
+.scroll {
+  width: 5px;
+  height: 10px;
+  border-radius: 10px;
+  background-color: rgb(105, 127, 255);
+  box-shadow: 0px 0px 10px rgb(105, 127, 255);
+  animation: scroll_4013 2s linear infinite;
+  transform: translateY(40%);
+}
+
+.btn:after {
+  position: absolute;
+  top: 140%;
+  color: whitesmoke;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+@keyframes scroll_4013 {
+  0% {
+    transform: translateY(40%);
+  }
+
+  50% {
+    transform: translateY(90%);
+  }
 }
 
 .about {
