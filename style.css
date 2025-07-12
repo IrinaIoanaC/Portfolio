@@ -218,15 +218,9 @@ p {
   box-shadow: 0px 0px 10px rgb(105, 127, 255);
 
   position: absolute;
-  bottom: 30%; /* adjust this value as needed */
+  bottom: 10%; /* adjust this value as needed */
   left: 50%;
   transform: translateX(-50%);
-}
-
-@media (max-width: 600px) {
-  .btn_scroll {
-    bottom: 10%;
-  }
 }
 
 .scroll {
